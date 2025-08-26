@@ -35,7 +35,7 @@ const firebaseConfig = {
 
 admin.initializeApp({
     credential: admin.credential.cert(firebaseConfig),
-    databaseURL: `https://${firebaseConfig.project_id}-default-rtdb.firebaseio.com`
+    databaseURL: `https://hackthon-ba0db-default-rtdb.firebaseio.com`
 });
 
 const db = admin.database();
